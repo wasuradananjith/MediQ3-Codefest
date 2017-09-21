@@ -39,7 +39,7 @@ public class BackgroundWorker2 extends AsyncTask<String,Void,String> {
         ref_Number=params[1];
         notify_Number=params[2];
         //String current_No_url = "http://10.0.2.2/notifyNo.php";
-        String current_No_url= "http://trycatch2017-001-site1.1tempurl.com/notifyNo.php";
+        String current_No_url= "http://mediq.000webhostapp.com/notifyNo.php";
         if(type.equals("checkCurrentNo")){
             try {
                 URL url = new URL(current_No_url);

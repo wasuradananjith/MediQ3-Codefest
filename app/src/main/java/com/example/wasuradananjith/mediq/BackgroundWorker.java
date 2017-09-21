@@ -30,8 +30,8 @@ public class BackgroundWorker extends AsyncTask<String,Void,String>{
     protected String doInBackground(String... params) {
         String type = params[0];
         String ref_Number=params[1];
-        //String current_No_url= "http://trycatch2017-001-site1.1tempurl.com/currentNo.php";
-        String current_No_url = "http://10.0.2.2/currentNo.php";
+        String current_No_url= "http://mediq.000webhostapp.com/currentNo.php";
+        //String current_No_url = "http://10.0.2.2/currentNo.php";
         if(type.equals("checkCurrentNo")){
             try {
                 URL url = new URL(current_No_url);
